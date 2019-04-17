@@ -12,7 +12,7 @@ module.exports = {
 	// used by Store (server side)
 	ajaxBaseUrl: process.env.AJAX_BASE_URL || 'http://localhost:3001/ajax',
 
-	storeListenPort: process.env.PORT,
+	storeListenPort: 3000,//process.env.PORT,
 
 	// key to sign tokens
 	jwtSecretKey: process.env.JWT_SECRET_KEY || '-',
